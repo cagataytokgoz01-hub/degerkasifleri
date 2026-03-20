@@ -13,7 +13,7 @@ const CORE_ASSETS = [
   "./ui/render.js",
   "./data/program.js",
   "./assets/icons/sp.png",
-  "./assets/icons/sp-arka.PNG",
+  "./assets/icons/sp-arka.png",
   "./assets/icons/icon-192.png",
   "./assets/icons/icon-512.png"
 ];
