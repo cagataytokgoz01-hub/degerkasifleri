@@ -7,7 +7,7 @@ export const program = [
   weekTitle:"Sıcacık Kalpler Yolu",
   parentOutcome:"Bu hafta çocuk sevgiyi küçük davranışlarla göstermeyi fark etmeye başlar.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Sevgi Kaşifi",
+  weekBadgeTitle:"SEVGİ KAŞİFİ",
   weekBadgeDescription:"Sevgiyi küçük davranışlarla göstermeye başladın.",
   checklist:[
     "Birinin yanında sakince oturdu",
@@ -158,7 +158,7 @@ task:[
   weekTitle:"Önce Sor Yolu",
   parentOutcome:"Bu hafta çocuk başkalarının alanına, sırasına ve seçimlerine dikkat etmeyi fark etmeye başlar.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Saygı Kaşifi",
+  weekBadgeTitle:"SAYGI KAŞİFİ",
   weekBadgeDescription:"Başkalarının alanına ve sırasına dikkat etmeyi öğrendin.",
   checklist:[
     "Birine yaklaşmadan önce sordu",
@@ -311,7 +311,7 @@ task:[
   weekTitle:"Minik Görevler Yolu",
   parentOutcome:"Bu hafta çocuk yaptığı şeyi fark etmeyi, tamamlamayı ve üstlenmeyi deneyimler.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Sorumluluk Kaşifi",
+  weekBadgeTitle:"SORUMLULUK KAŞİFİ",
   weekBadgeDescription:"Yaptığın işi fark edip tamamlamaya başladın.",
   checklist:[
     "Yaptığı bir değişikliği fark edip söyledi",
@@ -464,7 +464,7 @@ task:[
   weekTitle:"İyilik Sepeti Ormanı",
   parentOutcome:"Bu hafta çocuk yardım etmeden önce neye ihtiyaç olduğunu fark etmeyi öğrenir.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Yardım Kaşifi",
+  weekBadgeTitle:"YARDIMSEVERLİK KAŞİFİ",
   weekBadgeDescription:"Yardım etmeden önce neye ihtiyaç olduğunu fark etmeye başladın.",
   checklist:[
     "Yardım etmeden önce durup gözlem yaptı",
@@ -616,7 +616,7 @@ task:[
   weekTitle:"Gerçek Sözler Patikası",
   parentOutcome:"Bu hafta çocuk gördüğünü, yaptığını ve düşündüğünü sade şekilde ifade etmeyi dener.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Gerçek Söz Kaşifi",
+  weekBadgeTitle:"DÜRÜSTLÜK KAŞİFİ",
   weekBadgeDescription:"Gördüğünü ve yaptığını olduğu gibi söylemeye başladın.",
   checklist:[
     "Olan bir durumu olduğu gibi söyledi",
@@ -768,7 +768,7 @@ task:[
   weekTitle:"Sakin Adım Yolu",
   parentOutcome:"Bu hafta çocuk beklemeyi, yeniden denemeyi ve süreçte sakin kalmayı deneyimler.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Sabır Kaşifi",
+  weekBadgeTitle:"SABIR KAŞİFİ",
   weekBadgeDescription:"Beklemeyi ve yeniden denemeyi öğrenmeye başladın.",
   checklist:[
     "Bir şeyi hemen almadan ya da açmadan bekledi",
@@ -935,7 +935,7 @@ task:[
   weekTitle:"Yan Yana Adımlar Yolu",
   parentOutcome:"Bu hafta çocuk birlikte olmayı, yan yana kalmayı ve eşlik etmeyi fark eder.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Dostluk Kaşifi",
+  weekBadgeTitle:"DOSTLUK KAŞİFİ",
   weekBadgeDescription:"Birlikte olmayı ve eşlik etmeyi deneyimledin.",
   checklist:[
     "Birine yavaşça ve yan yana yaklaşabildi",
@@ -1089,7 +1089,7 @@ task:[
   weekTitle:"Yumuşak Bakışlar Ormanı",
   parentOutcome:"Bu hafta çocuk bir başkasının durumunu fark edip yumuşak bir şekilde yaklaşmayı dener.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Merhamet Kaşifi",
+  weekBadgeTitle:"MERHAMET KAŞİFİ",
   weekBadgeDescription:"Başkalarının durumunu fark edip nazik yaklaşmayı öğrendin.",
   checklist:[
     "Birinin ya da bir şeyin zorlandığını fark etti",
@@ -1237,25 +1237,25 @@ task:[
 
 /* ---------------- WEEK 9 ---------------- */
 {
-  week:8,
-  value:"Merhamet",
-  weekTitle:"Yumuşak Bakışlar Ormanı",
-  parentOutcome:"Bu hafta çocuk bir başkasının durumunu fark edip yumuşak bir şekilde yaklaşmayı dener.",
+  week:9,
+  value:"Özgürlük",
+  weekTitle:"Kendi Rengim Ormanı",
+  parentOutcome:"Bu hafta çocuk kendi seçimlerini fark etmeyi ve ifade etmeyi deneyimler.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Merhamet Kaşifi",
-  weekBadgeDescription:"Başkalarının durumunu fark edip nazik yaklaşmayı öğrendin.",
+  weekBadgeTitle:"ÖZGÜRLÜK KAŞİFİ",
+  weekBadgeDescription:"Kendi seçimlerini fark edip ifade etmeye başladın.",
   checklist:[
-    "Birinin ya da bir şeyin zorlandığını fark etti",
-    "Durup dikkatlice bakabildi",
-    "Nazikçe yaklaşmayı denedi",
-    "Bir ihtiyaca yumuşak bir şekilde karşılık verdi",
-    "Canlılara ya da eşyalara özenli davrandı",
-    "Zorlanan birine yardımcı olmaya istek gösterdi",
-    "Duyguyu fark edip yumuşak tepki verdi"
+    "Kendi seçimini yaptı",
+    "İstemediği bir şeyi ifade etti",
+    "Kendi yöntemini denedi",
+    "Birden fazla seçenek arasından karar verdi",
+    "Kendi alanını fark etti",
+    "Ortak alan ile kendi alanını ayırt etti",
+    "Seçimini sözle ya da işaretle gösterdi"
   ],
-  // 8. hafta - Geyik
-  farewellText:"Bir hafta seninle zarif ve dikkatli adımlar atmak çok güzeldi. Şimdi ormanın içinde kendi yoluma döneceğim.",
-  nextFriendText:"Bu hafta Kartal sana eşlik edecek.",
+  // 9. hafta - Kartal
+  farewellText:"Bir hafta seninle yüksekten bakmak ve olanı daha geniş görmek çok güzeldi. Şimdi gökyüzünde biraz uzaklaşacağım.",
+  nextFriendText:"Bu hafta Kaplumbağa sana eşlik edecek.",
   days:[
 
 {
@@ -1395,7 +1395,7 @@ task:[
   weekTitle:"Özel Alanım Ormanı",
   parentOutcome:"Bu hafta çocuk kendine ait alanı, sınırları ve neyi kiminle paylaşacağını fark etmeyi deneyimler.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Mahremiyet Kaşifi",
+  weekBadgeTitle:"MAHREMİYET KAŞİFİ",
   weekBadgeDescription:"Kendine ait alanı ve paylaşım sınırlarını fark etmeye başladın.",
   checklist:[
     "Kendine ait bir alan istedi",
@@ -1548,7 +1548,7 @@ task:[
   weekTitle:"Hareketli Beden Patikası",
   parentOutcome:"Bu hafta çocuk bedenine iyi gelen küçük alışkanlıkları gün içine yerleştirmeyi fark etmeye başlar.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Sağlıklı Yaşam Kaşifi",
+  weekBadgeTitle:"SAĞLIKLI YAŞAM KAŞİFİ",
   weekBadgeDescription:"Bedenine iyi gelen küçük alışkanlıkları fark etmeye başladın.",
   checklist:[
     "Gün içinde hareket etmeye katıldı",
@@ -1701,7 +1701,7 @@ task:[
   weekTitle:"Minik Emekler Yolculuğu",
   parentOutcome:"Bu hafta çocuk küçük adımların birikerek sonuç oluşturduğunu fark eder.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Çalışkanlık Kaşifi",
+  weekBadgeTitle:"ÇALIŞKANLIK KAŞİFİ",
   weekBadgeDescription:"Küçük adımların birikerek sonuç oluşturduğunu gördün.",
   checklist:[
     "Bir işe başlamaya istek gösterdi",
@@ -1853,7 +1853,7 @@ task:[
   weekTitle:"Nazik Kanatlar Bahçesi",
   parentOutcome:"Bu hafta çocuk çevresindeki küçük değişimleri fark edip nazik tepki vermeyi dener.",
   estimatedDailyTime:"10-15 dk",
-  weekBadgeTitle:"Duyarlılık Kaşifi",
+  weekBadgeTitle:"DUYARLILIK KAŞİFİ",
   weekBadgeDescription:"Küçük değişimleri fark edip nazik tepki vermeye başladın.",
   checklist:[
     "Çevredeki küçük değişiklikleri fark etti",
