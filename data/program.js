@@ -5,9 +5,21 @@ export const program = [
   week:1,
   value:"Sevgi",
   weekTitle:"Sıcacık Kalpler Yolu",
+  parentOutcome:"Bu hafta çocuk sevgiyi küçük davranışlarla göstermeyi fark etmeye başlar.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Sevgi Kaşifi",
+  weekBadgeDescription:"Sevgiyi küçük davranışlarla göstermeye başladın.",
+  checklist:[
+    "Birinin yanında sakince oturdu",
+    "Küçük bir ayrıntıyı fark etti",
+    "Nazikçe yaklaştı ya da izin istedi",
+    "Bir şeyi paylaştı ya da sıra verdi",
+    "Birlikte yapılan bir işe katıldı",
+    "Bir şeye özenle baktı"
+  ],
   // 1. hafta - Tavşan
-  farewellText: "Bir hafta seninle aynı yolda yürümek çok güzeldi. Şimdi biraz geride kalacağım ama seni sevgiyle izlemeye devam edeceğim.",
-  nextFriendText: "Bu hafta Kirpi sana eşlik edecek.",
+  farewellText:"Bir hafta seninle aynı yolda yürümek çok güzeldi. Şimdi biraz geride kalacağım ama seni sevgiyle izlemeye devam edeceğim.",
+  nextFriendText:"Bu hafta Kirpi sana eşlik edecek.",
   days:[
 
 {
@@ -144,10 +156,22 @@ task:[
   week:2,
   value:"Saygı",
   weekTitle:"Önce Sor Yolu",
+  parentOutcome:"Bu hafta çocuk başkalarının alanına, sırasına ve seçimlerine dikkat etmeyi fark etmeye başlar.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Saygı Kaşifi",
+  weekBadgeDescription:"Başkalarının alanına ve sırasına dikkat etmeyi öğrendin.",
+  checklist:[
+    "Birine yaklaşmadan önce sordu",
+    "Kendi alanı ile başkasının alanını ayırt etti",
+    "Sırasını bekledi",
+    "Eşyaları dikkatli kullandı",
+    "Birini dinlerken sözünü bekledi",
+    "Ortak alanı düzenli bırakmaya katıldı",
+    "Farklı seçime saygı gösterdi"
+  ],
   // 2. hafta - Kirpi
-  farewellText: "Seninle bu hafta sakin sakin ilerlemek çok güzeldi. Artık ben dinleneceğim, ama sen yoluna devam ediyorsun.",
-  nextFriendText: "Bu hafta Kuş sana eşlik edecek.",
-
+  farewellText:"Seninle bu hafta sakin sakin ilerlemek çok güzeldi. Artık ben dinleneceğim, ama sen yoluna devam ediyorsun.",
+  nextFriendText:"Bu hafta Kuş sana eşlik edecek.",
   days:[
 
 {
@@ -282,14 +306,26 @@ task:[
 
 /* ---------------- WEEK 3 ---------------- */
 {
-week:3,
-value:"Sorumluluk",
-weekTitle:"Minik Görevler Yuvası",
-// 3. hafta - Kuş
-farewellText: "Bu hafta seninle gökyüzüne bakmak ve hafifçe ilerlemek çok güzeldi. Şimdi kanatlarımı biraz dinlendireceğim.",
-nextFriendText: "Bu hafta Karınca sana eşlik edecek.",
-
-days:[
+  week:3,
+  value:"Sorumluluk",
+  weekTitle:"Minik Görevler Yolu",
+  parentOutcome:"Bu hafta çocuk yaptığı şeyi fark etmeyi, tamamlamayı ve üstlenmeyi deneyimler.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Sorumluluk Kaşifi",
+  weekBadgeDescription:"Yaptığın işi fark edip tamamlamaya başladın.",
+  checklist:[
+    "Yaptığı bir değişikliği fark edip söyledi",
+    "Yarım kalan bir işi tamamladı",
+    "Kullandığı eşyayı yerine koydu",
+    "Bir işi sırasıyla yaptı",
+    "Küçük bir görevi kendi başına üstlendi",
+    "Bir aksilik olduğunda düzeltmeye başladı",
+    "Ortak bir işte kendi payını yaptı"
+  ],
+  // 3. hafta - Kuş
+  farewellText:"Bu hafta seninle gökyüzüne bakmak ve hafifçe ilerlemek çok güzeldi. Şimdi kanatlarımı biraz dinlendireceğim.",
+  nextFriendText:"Bu hafta Karınca sana eşlik edecek.",
+  days:[
 
 {
 day:1,
@@ -423,14 +459,27 @@ task:[
 
 /* ---------------- WEEK 4 ---------------- */
 {
-week:4,
-value:"Yardımseverlik",
-weekTitle:"İyilik Sepeti Ormanı",
-// 4. hafta - Karınca
-farewellText: "Bu hafta seninle küçük adımların ne kadar değerli olduğunu görmek çok güzeldi. Şimdi ben kendi yoluma dönüyorum.",
-nextFriendText: "Bu hafta Tilki sana eşlik edecek.",
-
-days:[
+  week:4,
+  value:"Yardımseverlik",
+  weekTitle:"İyilik Sepeti Ormanı",
+  parentOutcome:"Bu hafta çocuk yardım etmeden önce neye ihtiyaç olduğunu fark etmeyi öğrenir.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Yardım Kaşifi",
+  weekBadgeDescription:"Yardım etmeden önce neye ihtiyaç olduğunu fark etmeye başladın.",
+  checklist:[
+    "Yardım etmeden önce durup gözlem yaptı",
+    "Neye ihtiyaç olduğunu fark etti",
+    "Uygun aracı seçerek yardım etti",
+    "Doğru zamanı bekleyerek yardım etti",
+    "Bir işi birlikte tamamlamaya katıldı",
+    "Yükü paylaşarak katkı sağladı",
+    "Dağılan bir durumu toparlamaya katıldı",
+    "Yardım etmeden önce sordu"
+  ],
+  // 4. hafta - Karınca
+  farewellText:"Bu hafta seninle küçük adımların ne kadar değerli olduğunu görmek çok güzeldi. Şimdi ben kendi yoluma dönüyorum.",
+  nextFriendText:"Bu hafta Tilki sana eşlik edecek.",
+  days:[
 {
 day:1,
 title:"Kime Yardım Gerek?",
@@ -562,13 +611,27 @@ task:[
 
 /* ---------------- WEEK 5 ---------------- */
 {
-week:5,
-value:"Dürüstlük",
-weekTitle:"Gerçek Sözler Patikası",
-// 5. hafta - Tilki
-farewellText: "Seninle bu hafta dikkatle düşünmek ve keşfetmek çok güzeldi. Şimdi biraz uzaktan bakacağım.",
-nextFriendText: "Bu hafta Salyangoz sana eşlik edecek.",
-days:[
+  week:5,
+  value:"Dürüstlük",
+  weekTitle:"Gerçek Sözler Patikası",
+  parentOutcome:"Bu hafta çocuk gördüğünü, yaptığını ve düşündüğünü sade şekilde ifade etmeyi dener.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Gerçek Söz Kaşifi",
+  weekBadgeDescription:"Gördüğünü ve yaptığını olduğu gibi söylemeye başladın.",
+  checklist:[
+    "Olan bir durumu olduğu gibi söyledi",
+    "Yaptığı bir şeyi sahiplendi",
+    "Bilmediği yerde “bilmiyorum” dedi",
+    "Kendi seçimini açıkça ifade etti",
+    "Küçük bir hatayı saklamadan gösterdi",
+    "Eksik ya da karışan bir durumu fark edip söyledi",
+    "İçinden geçenle söylediği şeyi uyumlu hale getirdi"
+  ],
+  // 5. hafta - Tilki
+  farewellText:"Seninle bu hafta dikkatle düşünmek ve keşfetmek çok güzeldi. Şimdi biraz uzaktan bakacağım.",
+  nextFriendText:"Bu hafta Salyangoz sana eşlik edecek.",
+  days:[
+    
 {
 day:1,
 title:"Olan Biten Dürbünü",
@@ -700,15 +763,26 @@ task:[
 
 /* ---------------- WEEK 6 ---------------- */
 {
-
-week:6,
-value:"Sabır",
-weekTitle:"Sakin Adımlar Yolu",
-// 6. hafta - Salyangoz
-farewellText: "Bir hafta seninle yavaşlamayı ve sakince ilerlemeyi paylaşmak çok güzeldi. Şimdi kabuğuma çekilip dinleneceğim.",
-nextFriendText: "Bu hafta Köpek sana eşlik edecek.",
-
-days:[
+  week:6,
+  value:"Sabır",
+  weekTitle:"Sakin Adım Yolu",
+  parentOutcome:"Bu hafta çocuk beklemeyi, yeniden denemeyi ve süreçte sakin kalmayı deneyimler.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Sabır Kaşifi",
+  weekBadgeDescription:"Beklemeyi ve yeniden denemeyi öğrenmeye başladın.",
+  checklist:[
+    "Bir şeyi hemen almadan ya da açmadan bekledi",
+    "Başkasıyla aynı tempoda ilerlemeye çalıştı",
+    "Olmayınca bir kez daha denedi",
+    "Sırasının gelmesini bekledi",
+    "Küçük adımlarla yavaş ilerledi",
+    "Bir görevi tamamlanana kadar sürdürdü",
+    "Zamanı gelince yapılan şeyi bekleyebildi"
+  ],
+  // 6. hafta - Salyangoz
+  farewellText:"Bir hafta seninle yavaşlamayı ve sakince ilerlemeyi paylaşmak çok güzeldi. Şimdi kabuğuma çekilip dinleneceğim.",
+  nextFriendText:"Bu hafta Köpek sana eşlik edecek.",
+  days:[
 
 {
 day:1,
@@ -856,14 +930,27 @@ task:[
 
 /* ---------------- WEEK 7 ---------------- */
 {
-week:7,
-value:"Dostluk",
-weekTitle:"Yan Yana Adımlar Yolu",
-// 7. hafta - Köpek
-farewellText: "Bir hafta seninle birlikte yürümek, beklemek ve eşlik etmek çok güzeldi. Şimdi ben biraz geride kalıyorum.",
-nextFriendText: "Bu hafta Geyik sana eşlik edecek.",
+  week:7,
+  value:"Dostluk",
+  weekTitle:"Yan Yana Adımlar Yolu",
+  parentOutcome:"Bu hafta çocuk birlikte olmayı, yan yana kalmayı ve eşlik etmeyi fark eder.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Dostluk Kaşifi",
+  weekBadgeDescription:"Birlikte olmayı ve eşlik etmeyi deneyimledin.",
+  checklist:[
+    "Birine yavaşça ve yan yana yaklaşabildi",
+    "Birlikte vakit geçirmeye istek gösterdi",
+    "Sıra alarak ya da paylaşarak oyunu sürdürdü",
+    "Bir arkadaşının duygusunu fark etti",
+    "Birlikte yapılan bir işi tamamlamaya katıldı",
+    "Bir arkadaşını bekledi ya da ona eşlik etti",
+    "Hafta içindeki ortak anları hatırladı"
+  ],
+  // 7. hafta - Köpek
+  farewellText:"Bir hafta seninle birlikte yürümek, beklemek ve eşlik etmek çok güzeldi. Şimdi ben biraz geride kalıyorum.",
+  nextFriendText:"Bu hafta Geyik sana eşlik edecek.",
 
-days:[
+  days:[
 
 {
 day:1,
@@ -997,13 +1084,27 @@ task:[
 
 /* ---------------- WEEK 8 ---------------- */
 {
-week:8,
-value:"Merhamet",
-weekTitle:"Yumuşak Bakışlar Ormanı",
-// 8. hafta - Geyik
-farewellText: "Bir hafta seninle zarif ve dikkatli adımlar atmak çok güzeldi. Şimdi ormanın içinde kendi yoluma döneceğim.",
-nextFriendText: "Bu hafta Kartal sana eşlik edecek.",
-days:[
+  week:8,
+  value:"Merhamet",
+  weekTitle:"Yumuşak Bakışlar Ormanı",
+  parentOutcome:"Bu hafta çocuk bir başkasının durumunu fark edip yumuşak bir şekilde yaklaşmayı dener.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Merhamet Kaşifi",
+  weekBadgeDescription:"Başkalarının durumunu fark edip nazik yaklaşmayı öğrendin.",
+  checklist:[
+    "Birinin ya da bir şeyin zorlandığını fark etti",
+    "Durup dikkatlice bakabildi",
+    "Nazikçe yaklaşmayı denedi",
+    "Bir ihtiyaca yumuşak bir şekilde karşılık verdi",
+    "Canlılara ya da eşyalara özenli davrandı",
+    "Zorlanan birine yardımcı olmaya istek gösterdi",
+    "Duyguyu fark edip yumuşak tepki verdi"
+  ],
+  // 8. hafta - Geyik
+  farewellText:"Bir hafta seninle zarif ve dikkatli adımlar atmak çok güzeldi. Şimdi ormanın içinde kendi yoluma döneceğim.",
+  nextFriendText:"Bu hafta Kartal sana eşlik edecek.",
+  days:[
+    
 {
 day:1,
 title:"Durup Bakma Yaprağı",
@@ -1136,13 +1237,26 @@ task:[
 
 /* ---------------- WEEK 9 ---------------- */
 {
-week:9,
-value:"Özgürlük",
-weekTitle:"Kendi Rengim Ormanı",
-// 9. hafta - Kartal
-farewellText: "Bir hafta seninle yüksekten bakmak ve olanı daha geniş görmek çok güzeldi. Şimdi gökyüzünde biraz uzaklaşacağım.",
-nextFriendText: "Bu hafta Kaplumbağa sana eşlik edecek.",
-days:[
+  week:8,
+  value:"Merhamet",
+  weekTitle:"Yumuşak Bakışlar Ormanı",
+  parentOutcome:"Bu hafta çocuk bir başkasının durumunu fark edip yumuşak bir şekilde yaklaşmayı dener.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Merhamet Kaşifi",
+  weekBadgeDescription:"Başkalarının durumunu fark edip nazik yaklaşmayı öğrendin.",
+  checklist:[
+    "Birinin ya da bir şeyin zorlandığını fark etti",
+    "Durup dikkatlice bakabildi",
+    "Nazikçe yaklaşmayı denedi",
+    "Bir ihtiyaca yumuşak bir şekilde karşılık verdi",
+    "Canlılara ya da eşyalara özenli davrandı",
+    "Zorlanan birine yardımcı olmaya istek gösterdi",
+    "Duyguyu fark edip yumuşak tepki verdi"
+  ],
+  // 8. hafta - Geyik
+  farewellText:"Bir hafta seninle zarif ve dikkatli adımlar atmak çok güzeldi. Şimdi ormanın içinde kendi yoluma döneceğim.",
+  nextFriendText:"Bu hafta Kartal sana eşlik edecek.",
+  days:[
 
 {
 day:1,
@@ -1276,13 +1390,27 @@ task:[
 
 /* ---------------- WEEK 10 ---------------- */
 {
-week:10,
-value:"Mahremiyet",
-weekTitle:"Özel Alanım Ormanı",
-// 10. hafta - Kaplumbağa
-farewellText: "Bir hafta seninle sabırla ve kararlılıkla ilerlemek çok güzeldi. Şimdi ben kendi sessiz yoluma dönüyorum.",
-nextFriendText: "Bu hafta Maymun sana eşlik edecek.",
-days:[
+  week:10,
+  value:"Mahremiyet",
+  weekTitle:"Özel Alanım Ormanı",
+  parentOutcome:"Bu hafta çocuk kendine ait alanı, sınırları ve neyi kiminle paylaşacağını fark etmeyi deneyimler.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Mahremiyet Kaşifi",
+  weekBadgeDescription:"Kendine ait alanı ve paylaşım sınırlarını fark etmeye başladın.",
+  checklist:[
+    "Kendine ait bir alan istedi",
+    "Birinin alanına girmeden önce durdu ya da sordu",
+    "Tek başına kalma isteğini ifade etti",
+    "Rahatsız olduğu bir durumda bunu söyledi",
+    "Kime ne söyleyeceğini ayırt etmeye başladı",
+    "Bir sınırı fark edip gösterdi",
+    "Bir başkasının özel alanına saygı gösterdi"
+  ],
+  // 10. hafta - Kaplumbağa
+  farewellText:"Bir hafta seninle sabırla ve kararlılıkla ilerlemek çok güzeldi. Şimdi ben kendi sessiz yoluma dönüyorum.",
+  nextFriendText:"Bu hafta Maymun sana eşlik edecek.",
+  days:[
+    
 {
 day:1,
 title:"Benim Sessiz Köşem",
@@ -1415,13 +1543,26 @@ task:[
 
 /* ---------------- WEEK 11 ---------------- */
 {
-week:11,
-value:"Sağlıklı Yaşam",
-weekTitle:"Hareketli Beden Patikası",
-// 11. hafta - Maymun
-farewellText: "Bir hafta seninle hareket etmek, denemek ve neşeyi paylaşmak çok güzeldi. Şimdi biraz dinlenip seni uzaktan izleyeceğim.",
-nextFriendText: "Bu hafta Kunduz sana eşlik edecek.",
-days:[
+  week:11,
+  value:"Sağlıklı Yaşam",
+  weekTitle:"Hareketli Beden Patikası",
+  parentOutcome:"Bu hafta çocuk bedenine iyi gelen küçük alışkanlıkları gün içine yerleştirmeyi fark etmeye başlar.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Sağlıklı Yaşam Kaşifi",
+  weekBadgeDescription:"Bedenine iyi gelen küçük alışkanlıkları fark etmeye başladın.",
+  checklist:[
+    "Gün içinde hareket etmeye katıldı",
+    "Su içme ya da beden bakımını hatırladı",
+    "Bedenine iyi gelen bir seçimi fark etti",
+    "Gün içindeki küçük rutinlere katıldı",
+    "Dinlenme ile hareket arasındaki farkı yaşadı",
+    "Sağlıklı bir alışkanlığı sözle ya da işaretle gösterdi",
+    "Gün akışında bedenine iyi gelen bir şeyi hatırladı"
+  ],
+  // 11. hafta - Maymun
+  farewellText:"Bir hafta seninle hareket etmek, denemek ve neşeyi paylaşmak çok güzeldi. Şimdi biraz dinlenip seni uzaktan izleyeceğim.",
+  nextFriendText:"Bu hafta Kunduz sana eşlik edecek.",
+  days:[
 
 {
 day:1,
@@ -1555,13 +1696,27 @@ task:[
 
 /* ---------------- WEEK 12 ---------------- */
 {
-week:12,
-value:"Çalışkanlık",
-weekTitle:"Minik Emekler Yolculuğu",
-// 12. hafta - Kunduz
-farewellText: "Bir hafta seninle emek vermek ve kurduğun şeyleri görmek çok güzeldi. Şimdi ben su kenarındaki yuvama dönüyorum.",
-nextFriendText: "Bu hafta Kelebek sana eşlik edecek.",
-days:[
+  week:12,
+  value:"Çalışkanlık",
+  weekTitle:"Minik Emekler Yolculuğu",
+  parentOutcome:"Bu hafta çocuk küçük adımların birikerek sonuç oluşturduğunu fark eder.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Çalışkanlık Kaşifi",
+  weekBadgeDescription:"Küçük adımların birikerek sonuç oluşturduğunu gördün.",
+  checklist:[
+    "Bir işe başlamaya istek gösterdi",
+    "Küçük bir adımı tamamladı",
+    "Yarım kalan işe geri döndü",
+    "Denemeyi sürdürdü",
+    "Ortaya çıkan emeğine dönüp baktı",
+    "Yaptığı şeyi sahiplenip gösterdi",
+    "Bir süreci tamamlayana kadar devam etti"
+  ],
+  // 12. hafta - Kunduz
+  farewellText:"Bir hafta seninle emek vermek ve kurduğun şeyleri görmek çok güzeldi. Şimdi ben su kenarındaki yuvama dönüyorum.",
+  nextFriendText:"Bu hafta Kelebek sana eşlik edecek.",
+  days:[
+    
 {
 day:1,
 title:"İlk Taşı Koymak",
@@ -1693,13 +1848,26 @@ task:[
 
 /* ---------------- WEEK 13 ---------------- */
 {
-week:13,
-value:"Duyarlılık",
-weekTitle:"Nazik Kanatlar Bahçesi",
-// 13. hafta - Kelebek
-farewellText: "Bu hafta seninle değişimi, hafifliği ve yeni başlangıçları paylaşmak çok güzeldi. Artık bu yolculuğun sonunda kendi kanatlarınla devam edebilirsin.",
-nextFriendText: "Bu yolculukta artık kazandıkların sana eşlik edecek.",
-days:[
+  week:13,
+  value:"Duyarlılık",
+  weekTitle:"Nazik Kanatlar Bahçesi",
+  parentOutcome:"Bu hafta çocuk çevresindeki küçük değişimleri fark edip nazik tepki vermeyi dener.",
+  estimatedDailyTime:"10-15 dk",
+  weekBadgeTitle:"Duyarlılık Kaşifi",
+  weekBadgeDescription:"Küçük değişimleri fark edip nazik tepki vermeye başladın.",
+  checklist:[
+    "Çevredeki küçük değişiklikleri fark etti",
+    "Yavaşlayıp dikkatlice baktı",
+    "Nazik bir düzeltme yaptı",
+    "Küçük bir farkı sözle ifade etti",
+    "Bir şeye özen gösterdi",
+    "Nazik davranışını tekrar etti",
+    "Gün içindeki küçük farkları hatırladı"
+  ],
+  // 13. hafta - Kelebek
+  farewellText:"Bu hafta seninle değişimi, hafifliği ve yeni başlangıçları paylaşmak çok güzeldi. Artık bu yolculuğun sonunda kendi kanatlarınla devam edebilirsin.",
+  nextFriendText:"Bu yolculukta artık kazandıkların sana eşlik edecek.",
+  days:[
 
 {
 day:1,
