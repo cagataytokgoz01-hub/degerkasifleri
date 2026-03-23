@@ -1,4 +1,4 @@
-const CACHE_NAME = "deger-app-v7";
+const CACHE_NAME = "deger-app-v8";
 
 const CORE_ASSETS = [
   "./",
