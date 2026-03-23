@@ -230,7 +230,7 @@ popup.innerHTML = `
     <div style="height:1px; background:#e5e5e5; margin:10px 0;"></div>
 
     <div class="noteText" style="margin-bottom:6px; font-weight:700;">Çocuğa Mesaj</div>
-
+    
     <div class="noteText" style="margin-bottom:12px;">
   ${weekData.weekBadgeDescription}
 </div>
@@ -284,6 +284,9 @@ if (finalBadgeEl) {
             style="width:96px; display:block; margin:0 auto 12px;"
           >
           <div class="noteTitle">DEĞER KAŞİFİ</div>
+
+          <div style="height:1px; background:#e5e5e5; margin:10px 0;"></div>
+          
           <div class="noteText" style="margin-bottom:12px;">
   Bu rozet tüm haftalar tamamlanınca açılır.
 </div>
@@ -298,6 +301,8 @@ if (finalBadgeEl) {
             style="width:96px; display:block; margin:0 auto 12px;"
           >
           <div class="noteTitle">DEĞER KAŞİFİ</div>
+
+          <div style="height:1px; background:#e5e5e5; margin:10px 0;"></div>
 
           <div class="noteText" style="margin-bottom:6px; font-weight:700;">Çocuğa Mesaj</div>
           <div class="noteText" style="margin-bottom:12px;">
