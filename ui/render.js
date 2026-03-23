@@ -201,6 +201,9 @@ function renderBadges(program, state) {
         style="width:72px; display:block; margin:0 auto 12px;"
       >
       <div class="noteTitle">${weekData.weekBadgeTitle}</div>
+
+      <div style="height:1px; background:#e5e5e5; margin:10px 0;"></div>
+      
       <div class="noteText" style="margin-bottom:12px;">
         Bu rozet hafta tamamlanınca açılır.
       </div>
@@ -223,6 +226,8 @@ popup.innerHTML = `
       style="width:72px; display:block; margin:0 auto 12px;"
     >
     <div class="noteTitle">${weekData.weekBadgeTitle}</div>
+
+    <div style="height:1px; background:#e5e5e5; margin:10px 0;"></div>
 
     <div class="noteText" style="margin-bottom:6px; font-weight:700;">Çocuğa Mesaj</div>
 
