@@ -230,7 +230,7 @@ popup.innerHTML = `
   ${weekData.weekBadgeDescription}
 </div>
 
-    <div class="noteText" style="margin:12px 0 8px; font-weight:700;">Ebeveyn İçin</div>
+    <div class="noteText" style="margin:12px 0 8px; font-weight:700;">Ebeveyn İçin Kontrol Listesi</div>
 
     <div class="noteText" style="text-align:left;">
       ${weekData.checklist.map((item, i) => `
