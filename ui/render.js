@@ -278,7 +278,7 @@ if (finalBadgeEl) {
             src="assets/images/rfinalg.png"
             style="width:96px; display:block; margin:0 auto 12px;"
           >
-          <div class="noteTitle">Değer Kaşifi</div>
+          <div class="noteTitle">DEĞER KAŞİFİ</div>
           <div class="noteText" style="margin-bottom:12px;">
   Bu rozet tüm haftalar tamamlanınca açılır.
 </div>
@@ -292,7 +292,7 @@ if (finalBadgeEl) {
             src="assets/images/rfinal.png"
             style="width:96px; display:block; margin:0 auto 12px;"
           >
-          <div class="noteTitle">Değer Kaşifi</div>
+          <div class="noteTitle">DEĞER KAŞİFİ</div>
 
           <div class="noteText" style="margin-bottom:6px; font-weight:700;">Çocuğa Mesaj</div>
           <div class="noteText" style="margin-bottom:12px;">
