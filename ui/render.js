@@ -230,6 +230,8 @@ popup.innerHTML = `
   ${weekData.weekBadgeDescription}
 </div>
 
+<div style="height:1px; background:#e5e5e5; margin:14px 0;"></div>
+
     <div class="noteText" style="margin:12px 0 8px; font-weight:700;">Ebeveyn İçin Kontrol Listesi</div>
 
     <div class="noteText" style="text-align:left;">
