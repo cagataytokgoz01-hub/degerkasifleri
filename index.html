@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Değer Yolculuğu</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+  <meta name="theme-color" content="#5FAF6B">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+<body>
+
+<div id="splash" style='background:url("assets/icons/sp-arka.png") center center / cover no-repeat;'>
+  <div class="splashContent">
+    <img src="assets/icons/sp.png" alt="Değer Kaşifleri">
+<div class="splashSpinner" aria-hidden="true"></div>
+  </div>  
+</div>  
+
+<div id="entryScreen" class="entryScreen" hidden>
+  <div class="entryOverlay"></div>
+  <div class="entryCard">
+    <img class="entryFindik" src="assets/images/findik.png" alt="Fındık">
+<h1 class="entryTitle">Değer Kaşifleri</h1>
+    <p class="entryText" id="entryText">Hikayeler ve uygulamalarla değerleri birlikte keşfedin.</p>
+    <p class="entrySubtitle" id="entrySubtitle" hidden></p>
+    <button class="primaryBtn entryMainBtn" id="entryMainBtn">Yolculuğa Başla</button>
+    <button type="button" class="entryLinkBtn" id="howToBtn">Nasıl Kullanılır?</button>
+    <button type="button" class="entryResetBtn" id="resetProgressBtn" hidden>Baştan Başla</button>
+  </div>
+</div>
+
+<div id="howToModal" class="entryModal" hidden>
+  <div class="entryModalCard">
+    <h3>Nasıl Kullanılır?</h3>
+    <ul class="entryModalList">
+      <li>Her gün kısa bir hikaye ile yolculuk başlar.</li>
+      <li>Sonra küçük bir uygulama birlikte yapılır.</li>
+      <li>Kaldığınız yer uygulama tarafından hatırlanır.</li>
+      <li>Haftalar ilerledikçe yeni adımlar ve rozetler açılır.</li>
+    </ul>
+    <button type="button" class="primaryBtn entryModalBtn" id="closeHowToBtn">Kapat</button>
+  </div>
+</div>
+
+<div id="resetModal" class="entryModal" hidden>
+  <div class="entryModalCard">
+    <h3>Baştan Başla</h3>
+    <p class="entryModalText">Tüm ilerleme sıfırlanacak. Emin misin?</p>
+    <div class="entryModalActions">
+      <button type="button" class="entryGhostBtn" id="cancelResetBtn">Vazgeç</button>
+      <button type="button" class="primaryBtn entryModalBtn" id="confirmResetBtn">Evet, Baştan Başla</button>
+    </div>
+  </div>
+</div>
+
+<main id="app" class="app" hidden>
+  <img id="bg" class="bg" src="" alt="">
+  <img id="findik" class="findik" src="assets/images/findik.png" alt="Fındık">
+  <div class="dost">
+    <img id="dostImg" src="assets/images/dost1.png" alt="">
+  </div>
+
+  <section id="taskScreen" class="screen" aria-live="polite"></section>
+  <section id="mapScreen" class="pageScreen" aria-live="polite" hidden></section>
+  <section id="badgeScreen" class="pageScreen" aria-live="polite" hidden></section>
+  <section id="aboutScreen" class="pageScreen" aria-live="polite" hidden></section>
+
+  <div id="journeyBar" class="journeyBar"></div>
+
+  <nav class="bottomNav" aria-label="Alt Menü">
+    <button class="navBtn isActive" type="button" data-tab="task" aria-label="Görev">
+      <img src="assets/images/gorev.png" alt="">
+    </button>
+    <button class="navBtn" type="button" data-tab="map" aria-label="Harita">
+      <img src="assets/images/harita.png" alt="">
+    </button>
+    <button class="navBtn" type="button" data-tab="badges" aria-label="Rozetler">
+      <img src="assets/images/rozet.png" alt="">
+    </button>
+    <button class="navBtn" type="button" data-tab="about" aria-label="Hakkında">
+      <img src="assets/images/hakkinda.png" alt="">
+    </button>
+  </nav>
+</main>
+
+<script type="module" src="app/main.js"></script>
+</body>
+</html>
