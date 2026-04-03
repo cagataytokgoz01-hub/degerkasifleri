@@ -1,0 +1,28 @@
+{
+  "id": "/degerkasifleri/",
+  "name": "Deger Kasifleri",
+  "short_name": "Degerler",
+  "description": "Hikayeler ve uygulamalarla degerleri birlikte kesfedin.",
+  "start_url": "/degerkasifleri/",
+  "scope": "/degerkasifleri/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5FAF6B",
+  "orientation": "portrait",
+  "lang": "tr",
+  "categories": ["education", "kids"],
+  "icons": [
+    {
+      "src": "assets/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
