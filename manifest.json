@@ -1,7 +1,7 @@
 {
   "name": "Değer Kaşifleri",
   "short_name": "Değerler",
-  "start_url": "./index.html",
+  "start_url": "/degerkasifleri/"
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#5FAF6B",
